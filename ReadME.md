@@ -2,6 +2,10 @@
 
 An interactive dictionary application built with HTML, CSS, and JavaScript. Users can search for words and view their definitions, synonyms, antonyms, and examples.
 
+## Live Demo
+
+You can view the live version of the project [here](https://prajwalnikam7131.github.io/JavaScript-dictionary/).
+
 ## Features
 
 - Search for words using an input field.
