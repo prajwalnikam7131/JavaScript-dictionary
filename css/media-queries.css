@@ -1,0 +1,77 @@
+@media screen and (min-device-width:320px) and (max-device-width:480px) {
+
+
+    body {
+        width: 100vw;
+        /* height: 100vh; */
+    }
+
+    .container {
+        width: 100vw;
+        /* height: 100vh; */
+        position: relative;
+    }
+
+    nav {
+        height: 8vh;
+    }
+
+    .fa-book {
+        font-size: 20px;
+        padding: 0 0 0 5px;
+
+    }
+
+    .fa-moon {
+        font-size: 24px;
+        padding: 0 6px 0 0;
+        cursor: pointer;
+    }
+
+    nav h1 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .main {
+        /* background: red; */
+        width: 98vw;
+        margin: 3px auto;
+        padding: 3px;
+        /* border: 1px solid black; */
+    }
+
+    .input-field {
+        /* background: red; */
+        width: 100%;
+        display: grid;
+    }
+
+    .input {
+        font-size: 23px;
+        line-height: 2;
+        padding: 0 0 0 10px;
+        border-radius: 4px;
+    }
+
+    .result {
+        border: 1px solid var(--footer-bg-color);
+        /* background: green; */
+        width: 98%;
+        margin: 35% auto;
+        box-shadow: 3px 3px 3px 1px var(--footer-bg-color);
+        opacity: 1;
+    }
+
+    #word {
+        font-size: 24px;
+    }
+
+    .part-of-speech,
+    .meaning,
+    .synonyms-word,
+    .antonyms-word,
+    .example {
+        font-size: 17px;
+    }
+}

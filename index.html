@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media-queries.css">
+    <script src="https://kit.fontawesome.com/e6826c2e02.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <nav>
+            <i class="fa-solid fa-book"></i>
+            <h1>Summoning JavaScript Dictionaries</h1>
+            <div class="dark-theme">
+                <i class="fa-solid fa-moon" onclick="darkMode()"></i>
+            </div>
+        </nav>
+
+        <div class="main">
+            <div class="input-field">
+                <input type="text" placeholder="Search word" id="input" class="input" spellcheck="true">
+                <button id="search" class="search">Search</button>
+                <button class="search" onclick="window.location.reload()">Clear</button>
+            </div>
+            <div class="result">
+                <div class="word-audio">
+                    <h3 id="word"></h3>
+                    <i class="fa-solid fa-volume-high" id="audio"></i>
+                </div>
+                <p class="part-of-speech"></p>
+                <p class="meaning"></p>
+                <p class="synonyms-word"></p>
+                <p class="antonyms-word"></p>
+                <p class="example"></p>
+                <a href="" target="_blank" class="read-more">Read more</a>
+            </div>
+        </div>
+
+
+        <footer class="footer">
+            <div class="copy-right">&copy;
+                <a href="https://www.instagram.com/prajwal_rf_751/">It Prajwal</a>
+            </div>
+        </footer>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
